@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de pendientes</title>
+    <style>
+        body {
+            background-color: #C4AD71;
+            padding-top 60px;
+        }
+
+        .container{
+            max-width: 5px;
+            margin: auto;
+            background-color: #E8CE8A ;
+            -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+            box-shadow: 2px 2px 13px -4px rgba(0,0,0,0.21);
+         }
+
+         .card{
+                display: flex;
+                lign-items: center;
+                margin: auto;
+                width: 50%;
+                background-color: #C4AD71;
+                max-width: 550px;
+                padding: 50px;
+                justify-content: center;
+
+         }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    {% block content %}
+
+
+    {% endblock content %}
+</div>
+
+</body>
+</html>
